@@ -1,0 +1,136 @@
+.topnav{
+    overflow: hidden;
+    font-family:system-ui;
+    /* text-shadow: 2px 2px 2px #ffffff; */
+    background-color:  #272343;  
+}
+
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 350;
+    font-family: system-ui;
+    color: antiquewhite;
+    background-color: #272343;
+}
+.name{
+    vertical-align: middle;
+        position: absolute; 
+        top: 10px; 
+        right: 20px; 
+        color: antiquewhite;
+        padding: 5px 5px 5px 5px;
+        font-size: 28px;
+} 
+a:link, a:visited {
+    background-color:#113f67;
+    color: antiquewhite;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+#intro{
+    text-align: center;
+    padding: 10px;
+    font-family: system-ui;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    background-attachment: scroll;
+    background-color:  #ecf2f9;
+    
+
+}
+a[href="projects.html"]{
+    font-family: Georgia, serif;
+    background-color: #272343;
+   
+}
+body{
+    font-family: system-ui;
+    
+}
+table{
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    /* align-content: space-evenly; */
+
+}
+td {
+    height: 20px;
+    vertical-align: center;
+
+}
+
+
+pre{
+    font-family: system-ui;
+}
+#proj,#work{
+    font-family: system-ui;
+    padding: 10px;
+    line-height: 1.5;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    height: 200px;
+    text-align: justify;
+    vertical-align: middle;
+    
+}
+#proj{
+    background-color:  #ecf2f9;
+
+}
+#work{
+    background-color:  #c8d9eb;
+}
+
+#contact{
+    text-align: center;
+    font-size: 18px;
+    font-family: system-ui;
+    padding: 5px;
+    line-height:2;
+    margin: 5px;
+    background-color:  #ecf2f9;
+}
+
+#contactbar{
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    border: 5px;
+    border-width: 1000px;
+    background-color: #c8d9eb;
+
+}
+
+#projlink{
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #c8d9eb;
+    
+}
+
+/* a[href="projects.html"]:hover{
+    width: 50px;
+    height: 50px;
+    transition: width 2s, height 4s;
+} */
+#copyright{
+    padding: 15px;
+    background-color:  #ecf2f9;
+}
+hr{
+    border: 5px solid #ecfffb;
+    border-radius: 1px;
+  }
